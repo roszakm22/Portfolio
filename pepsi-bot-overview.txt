@@ -1,0 +1,30 @@
+THE PEPSI BOT
+Murphy Roszak & Connor Homes
+Milwaukee School of Engineering | MEC 1910-185 | May 2026
+
+CHALLENGE
+Build a robot that locates targets, drives toward them, detects contact, and moves to a different target.
+
+SYSTEM
+Arduino Uno, servo-mounted ultrasonic distance sensor, motor-driven chassis, mechanical bumper switches, LEDs, and control logic developed with MATLAB.
+
+CONTROL SEQUENCE
+Scan the environment, select the closest target, turn and verify alignment, drive until bumper contact, update an LED, reverse, and search for a different target.
+
+MURPHY'S CONTRIBUTIONS
+The presentation's task tracker lists the steering function, scanning function, and plotting system under Murphy. Conversion to C and the final presentation were shared. Connor led robot electronics and bumper work.
+
+ITERATION
+The first contact detector used a photoresistor but proved unreliable under changing ambient light. Two mechanical buttons, springs, and rubber bands provided a more dependable bumper mechanism.
+
+REPORTED RESULTS
+The demonstration run contacted every target in the course.
+Across broader testing, the reported completion rate was approximately 60%.
+A scan took approximately 18 seconds.
+
+NEXT IMPROVEMENTS
+Reduce scanning time and aggregate repeated readings at each angle.
+
+SOURCE
+MEC 1910-185 Final — The Pepsi Bot, by Connor Homes and Murphy Roszak, May 13, 2026.
+This overview summarizes the original team presentation.
